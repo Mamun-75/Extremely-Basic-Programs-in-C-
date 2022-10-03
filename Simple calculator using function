@@ -1,0 +1,45 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+void addition(int,int);
+void subtraction(int,int);
+void multiplication(int, int);
+void division(int, int);
+
+int main()
+{
+   addition(50,60);
+   subtraction(15,5);
+   multiplication(5,10);
+   division(50,10);
+
+    getch();
+}
+
+
+
+    void addition (int a, int b)
+    {
+        int result = a + b;
+        cout<<"Addition is = "<<result<<endl;
+    }
+
+    void subtraction(int a, int b)
+    {
+        int result = a - b;
+        cout<<"Subtraction is ="<< result<<endl;
+
+    }
+    void multiplication(int a, int b)
+    {
+     int result = a*b;
+        cout<<"Multiplication is = "<< result<<endl;
+    }
+
+
+    void division(int a, int b)
+    {
+        float result = (float)a/b;
+        cout<<"Division is ="<<result<<endl;
+    }
